@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-cp ./roll.py ./roll
+cp ./app.py ./roll
 chmod +x ./roll

@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "region": "us-west-1",
+    "api_handler_name": "roll-dev",
+    "api_handler_arn": "arn:aws:lambda:us-west-1:265837047365:function:roll-dev",
+    "rest_api_id": "ock0ni5l5h",
+    "lambda_functions": {},
+    "chalice_version": "1.0.2",
+    "api_gateway_stage": "api",
+    "backend": "api"
+  }
+}

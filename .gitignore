@@ -1,1 +1,9 @@
+# Python
+*.pyc
+
+# Artifacts
 roll
+
+# Chalice
+.chalice/deployments/
+.chalice/venv/
