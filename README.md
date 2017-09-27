@@ -12,9 +12,9 @@ the need to roll `32` `17`-sided dice...)
 
 ## Setup
 1. Install dependencies with [pip]:
-```sh
-$ pip install -r requirements.txt
-```
+    ```sh
+    $ pip install -r requirements.txt
+    ```
 1. Set the value of `SLACK_TOKEN` in `app.py` to be some string. Currently used
 as a terrible form of validation.
 
@@ -23,9 +23,9 @@ as a terrible form of validation.
 Roll is currently set up to deploy as an AWS Lambda with API Gateway, using
 [Chalice]
 1. Run locally:
-```sh
-$ chalice local
-```
+    ```sh
+    $ chalice local
+    ```
 1. POST to the running app, with a `Header` including
 `Content-Type: application/x-www-form-urlencoded` and the following data:
 
