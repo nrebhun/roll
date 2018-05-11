@@ -1,21 +1,21 @@
-import os
+import os, secrets
 
 def mod_roll(number, max_value):
     return (number % max_value) + 1
 
-def roll(count = None, range = -1):
-    random = os.urandom(count)
-    numbers = map(ord, random)
-    roll_results = [mod_roll(n, range) for n in numbers]
+def roll(count = None, sides = -1):
+    roll_results = []
+    for i in range(count):
+        roll_results.append(secrets.randbelow(sides) + 1)
+
     return roll_results
 
 def stringify(rolls = None):
-    string = ""
+    rollStr = ""
     for roll in rolls:
-        string = string + str(roll) + ", "
+        rollStr = rollStr + str(roll) + ", "
 
-    return "You rolled: " + string[:-2]
-
+    return "You rolled: " + rollStr[:-2]
 
 def parse_shorthand(dice_shorthand = None):
     (count, sides) = dice_shorthand.split("d")

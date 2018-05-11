@@ -4,6 +4,6 @@
       "api_gateway_stage": "api"
     }
   },
-  "version": "0.2", 
+  "version": "0.3", 
   "app_name": "roll"
 }
