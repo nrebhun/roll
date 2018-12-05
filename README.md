@@ -4,7 +4,7 @@ A digital, d-whatever dice roller.
 
 Accepts "dice shorthand", `QdS`, where `Q` is the quantity of dice, and `S` is
 the number of sides.
-For example, `2d12` will generate `2` random numbers between 1 and `12`
+For example, `2d12` will generate `2` random numbers between 1 and `12` (inclusive.)
 
 This utility does not restrict users to standard-sided dice, meaning you can
 easily roll percentages (`1d100`) or weird-sided dice (`32d17`, you know... in case you felt
